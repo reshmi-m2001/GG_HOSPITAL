@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* margin-bottom: 5000vh; */
+    font-family: "Inter", sans-serif;
+}
+
+.top-header{
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  padding-top:10px;
+}
+.social-icon {
+  display: flex;
+  align-items: center;
+  padding-left:50px;
+  filter: drop-shadow(0px 4px 4px rgba(8, 7, 7, 0.25));
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-right:30px;
+  filter: drop-shadow(0px 4px 4px rgba(8, 7, 7, 0.25));
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+  margin-top:-20px;
+  margin-left: 10px;
+}
+.contact-icon {
+  width: 15px;
+  height: 15px;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.nav-bar{
+  display:flex;
+}
+.nav-bar li{
+  font-size: 14px;
+}
+.active{
+  color: red;
+}
+.nav-bar ul{
+  display:flex;
+  list-style-type: none;
+  margin-top: 25px;
+  gap:60px;
+  margin-right: 30px;
+  padding-left: 0;
+  filter: drop-shadow(0px 4px 4px rgba(8, 7, 7, 0.25));
+}
+.logo-img{
+  padding-left: 40px;
+}
+
+.background-image {
+background-image: url('assets/image 23.png'); 
+  background-size: cover;
+  background-position:center;
+  object-fit: contain;
+  padding-left: 40px;
+  position: relative;
+  height: 700px;
+  width:100%;    
+}
+
+
+.why {
+  background-image: url('assets/Frame 92.png'); 
+  background-size: cover;
+  object-fit: contain;
+  background-position: center;
+  margin-top: 70px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 40px;
+  position: relative;
+  min-height:500px;
+
+   
+  color: white; /* Text color */
+}
+.overlay-text1 {
+  padding: 50px; 
+  color: black;
+  position: absolute;
+  text-align: right;
+  top:50px;
+  margin-right: 50px;
+  translate: -50px -50px;
+ 
+}
+
+
+.video{
+  margin-left: 14px;
+ 
+}
+.video img{
+  width:24px;
+   height:24px;
+}
+.btn{
+  background-color:#17C1A3;
+  white-space: nowrap;
+  color: white;
+  margin-left:-15px;
+}
+.overlay-text {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+a{
+  text-decoration: underline;
+  color: black;
+}
+
+.container-appoinment{
+ margin-top: -150px;
+ width: 95%;
+
+ 
+}
+.card-no-border {
+  border: none;
+}
+.form-container {
+  margin-top: -70px;
+  margin-left: 450px;
+  width: 43%;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.form-container input {
+  margin-bottom: -59px;
+  border: none;
+  outline: none;
+}
+
+.card a{
+
+  text-decoration: underline;
+  color: #17C1A3;
+}
+
+.facilities {
+  margin-top: 250px;
+  text-align: center;
+}
+.facilities-pad {
+  padding-left: 41px;
+  padding-right: 44px;
+}
+.color-container{
+  background-color: #EAF2FF;
+  margin-top: 300px;
+  min-height: 400px;
+}
+.color-container>section{
+  transform: translateY(-200px);
+}
+.interest {
+  margin-top: 100px;
+  text-align: center;
+}
+.interest-pad {
+  padding-left: 41px;
+  padding-right: 44px;
+}
+.interest-align{
+  text-align: start;
+}
+.card-fontsize {
+  font-size: 15px;
+}
+.doctor-heading {
+  margin-top: 68px;
+  text-align: center;
+}
+.doctor-pad {
+  padding-left: 38px;
+  padding-right: 43px;
+}
+.para {
+  opacity: 0.5;
+}
+.features{
+  text-align: left;
+  font-size: 18px;
+  margin-right: -50px;
+  margin-left:20px;
+  padding-top:30px;
+}
+
+.newsletter-card{
+  position: relative;
+  top: -10%;
+  background-image: url("../assets/Mask\ group.png");
+  background-size: cover;
+  height: 30vh;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.overlay-text-sub .btn{
+  margin-left: 238px;
+  margin-bottom: 5px;
+}
+
+#newsletter-input{
+  margin-top: -119px;
+  margin-left: 461px;
+  padding-bottom: 1px;
+  width:41%;
+  border-bottom: 1px solid black;
+}
+#newsletter-input input{
+  width:67%;
+  margin-bottom: 0px;
+  border: none;
+}
+#newsletter-input input::placeholder{
+  font-size: 0.8rem;
+  color: gray;
+}
+.overlay-text-sub{
+  margin-top: -120px;
+  margin-left: 62px;
+
+}
+
+.subscribe{
+  background-color: white;
+  margin-top: 137px;
+  width: 863px;
+  height: 165px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.legal-margin-1{
+  margin-left: 45px;
+  margin-right: 50px;
+
+}
+.legal-margin-2{
+  margin-left: 50px;
+  margin-right: 45px;
+
+}
+.features .row{
+  padding-bottom: 35px;
+}
+.about-margin{
+  margin-top: 30px;
+}
+.legal-margin-0{
+  margin-top: 20px;
+  
+}
+.gghos-margin{
+  margin-left:189px;
+}
+.cntact-icon2{
+  margin-top: 17px;
+  margin-left:45px;
+  height: 24px;
+  width: 24px;
+}
+.cntact-icon3{
+  margin-top: 18px;
+  height: 24px;
+  width: 24px;
+}
+.cntact-icon4{
+  margin-top: -32px;
+  margin-right: 8px;
+  height: 24px;
+  width: 24px;
+}
+.cntact-icon1{
+  margin-right: 1px;
+}
+.footer1{
+  text-align: left;
+  margin-top: 3px;
+  margin-left: -13px;
+  margin-right: 3px;
+  font-size: 10px;
+  max-height: 1em;
+ 
+}
+.footer2{
+  text-align: left;
+  margin-top: 5px;
+  margin-left: -14px;
+  margin-right: -35px;
+  font-size: 10px;
+  max-height: 2em;
+ 
+}
+.footer3{
+  text-align: left;
+  margin-top: 5px;
+  margin-left: -13px;
+  margin-right: 1px;
+  font-size: 10px;
+  max-height: 2em;
+}
+.footer4{
+  text-align: left;
+  margin-top: 1px;
+  margin-left: -13px;
+  margin-right: 1px;
+  font-size: 15px;
+  max-height: 2em;
+}
+
+.footer-row-1{
+  margin-bottom: 0px;
+  margin-left: 170px;
+}
+.footer-row-2{
+  margin-bottom: 1px;
+  margin-left: 170px;
+}
+.tick{
+  width: 18px;
+  height: 18px;
+  margin-right: 2px;
+}
+.card-text{
+  font-size: 15px;
+}
+.container-appoinment .btn{
+
+  margin-left: 2px;
+}
+.footer-row-copyright{
+  text-align: center;
+  color: gray;
+  font-family: var(--open-sans);
+  font-size:15px;
+}
+.row-footer{
+  padding-left: 60px;
+  padding-right: 40px;
+  text-align: center;
+  margin-top: 10px;
+}
+.row-footer-1{
+  margin-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  margin-top: 10px;
+}
+hr{
+  margin-left: 65px;
+  margin-right: 65px;
+}
+.col-4{
+  font-size: 15px;
+}
+.row-col-1{
+  margin-left:100px;
+  padding-left: 70px;
+}
+.row-col-2{
+  margin-left:2px;
+  padding-left: 3px;
+
+}
+
+
